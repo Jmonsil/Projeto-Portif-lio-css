@@ -1,0 +1,339 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* cabeçalho */
+
+.cabeçalho{
+    background: #123c58;
+    width: 100%;
+    position: relative;
+}
+
+.conteiner1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav a{
+    text-decoration: underline;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 17px;
+    
+}
+
+.conteiner1 div img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    object-fit: cover
+    
+}   
+
+/* Main */
+
+.fundo{
+    width: 100%;   
+    height: 200px;
+    position: absolute;
+}
+
+.conteiner2{
+    position: relative;
+    bottom: 0px;
+    top: 150px;
+
+}
+.conteiner2 .img1 img{
+    margin-left: 150px;
+    border-radius: 300px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    
+
+}
+.conteiner3{
+width: 150px;
+height: 270px;
+padding-left: 180px;
+display: flex;
+align-items: baseline;
+letter-spacing: 0px;
+
+
+
+}
+
+
+#Apresentação{
+    margin-left: 500px;
+    width: 850px;
+    height: 220px;
+    float: right;
+    margin-top: -450px;           
+}
+
+.nome{
+    font-size: 55px;
+    color: #707070;
+    padding-top: 10px;
+}
+
+.Formação{
+    font-style: italic;
+    font-size: 34px;
+    font-weight: 300;
+    color: #707070;
+}
+
+.Saudaçoes{
+    font-weight: bold;
+    font-size: 34px;
+    padding-top: 34px;
+    color: #707070;
+}
+
+#Apresentação p{
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-align: left;
+    padding-top: 21px;
+    color: #707070;
+    line-height: 35px;
+    
+}
+
+/* Formação  */
+
+#Formação2{
+    background:#123c58;
+    width: 100%;
+    height: 430px;
+    margin-top: 34px;
+}
+
+.textodeformação{
+    width: 100%;
+    max-width: 865px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 34px;
+}
+
+.formaçãotitulo{
+    font-size: 55px;
+    font-weight: 300;
+    color:#faf3f3;
+    width: 250px;
+    font-style: normal;
+    padding-bottom: 36px;
+}
+
+.formação1{
+    padding-bottom: 34px;
+    display: flex;
+    align-items: center;
+}
+
+
+.linhavertical{
+    width: 8px;
+    height: 66px;
+    border-radius: 5px;
+    opacity: 1;
+    background-color: #faf6f6;
+    margin-right: 13px;
+}
+.conteudoformação{
+    color: #fdfafa;
+}
+
+.formação1 h2{
+    font-size: 21px;
+}
+.formação1 p{
+    font-size: 13px;
+}
+
+/* experiência  */
+
+
+#Experiência{
+    width: 100%;
+    height: 570px;
+    margin-top: 0px;
+    background-color: rgb(156, 156, 149);
+}
+
+.textoexperiência{
+    width: 100%;
+    max-width: 865px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 34px;
+}
+
+.experiênciatitulo{
+    font-size: 55px;
+    font-weight: 300;
+    color:#011430;
+    width: 285px;
+    font-style: normal;
+    padding-bottom: 36px;
+}
+
+.e1{
+    padding-bottom: 34px;
+    display: flex;
+    align-items: center;
+}
+.content-experiência{
+    color: #011430;
+}
+
+.e1 h2{
+    font-size: 21px;
+}
+.e1 p{
+    font-size: 13px;
+}
+
+.linhavertical{
+    width: 4px;
+    height: 66px;
+    border-radius: 5px;
+    opacity: 1;
+    background-color:#FFFFFF;
+    margin-right: 13px;
+}
+
+/* contacto  */
+
+
+#Contato{
+    background: #123c58;
+    width: 100%;
+    height: 609px;
+    margin-top: 0px;
+}
+
+.contenidodelcontato{
+    width: 100%;
+    max-width: 865px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 34px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulocon h2{
+    font-size: 55px;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-style: normal;
+    padding-bottom: 43px;
+    width: 398px;
+}
+
+.texto-contato p{
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #faf5f5;
+    opacity: 1;
+    line-height: 35px;
+    width: 398px;
+    padding-bottom: 25px;
+}
+
+.texto-contato{
+    width: 398px;
+}
+
+.redesociais{
+    width: 216px;
+    display: flex;
+   justify-content: space-between;
+}
+
+.social1 p{
+    font-size: 8px;
+    font-weight: 600;
+    color: #faf5f5;
+    letter-spacing: 0px;
+    text-align: center;
+}
+a .social{
+    padding-bottom: 10px;
+}
+/* Formulario  */
+
+.formulario{
+    width: 398px;
+    margin-top: 107px;
+    align-items: center;
+    text-align: center;
+}
+
+.formulario1{
+    width: 398px;
+    height: 34px;
+    margin-bottom: 17px;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.formulario2{
+    width: 398px;
+    height: 133px;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;
+}
+.subtitulo{
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-align: left;
+}
+
+button#boton{
+    width: 122px;
+    height: 34px;
+    border-radius: 10px;
+    opacity: 1;
+    color: #f7fafc;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #031433;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+#button{
+    align-items: center;
+}
+
+
+
